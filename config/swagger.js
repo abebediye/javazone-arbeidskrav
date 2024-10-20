@@ -10,9 +10,9 @@ const swaggerDefinition = {
         {
             url: process.env.HOST || "http://localhost:3000",
             description:
-                process.env.ENVIRONMENT == "development"
-                    ? "Development server"
-                    : "Production server",
+                process.env.ENVIRONMENT == "Production"
+                    ? "Production server"
+                    : "Development server",
         },
     ],
 };
